@@ -11,7 +11,7 @@ function criarLinha(nome = '', nota = '', peso = '1') {
   linha.className = 'linha-nota';
   linha.innerHTML = `
     <input class="nome" type="text" placeholder="Nome da avaliação" aria-label="Nome da avaliação" maxlength="35">
-    <input class="nota" type="number" min="0" max="10" step="0.1" placeholder="0,0" aria-label="Nota" required>
+    <input class="nota" type="number" min="0" max="10" step="0.1" placeholder="0,0" aria-label="Nota">
     <input class="peso" type="number" min="0.1" max="100" step="0.1" value="1" aria-label="Peso" required>
     <button class="remover" type="button" aria-label="Remover avaliação" title="Remover">×</button>
   `;
